@@ -8,6 +8,6 @@
 
 def select_winner(passengers)
   passengers.each do |key, value|
-    puts "#{suite_a}: #{Amanda Presley}"
-  end 
+    "#{suite_a}: #{Amanda Presley}"
+  end
 end
