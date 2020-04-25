@@ -1,21 +1,4 @@
-# birthday_kids = {
-#   "Timmy" => 9,
-#   "Sarah" => 6,
-#   "Amanda" => 27
-# }
 
-  def happy_birthday(birthday_kids)
-  birthday_kids.each do |kids_name, age|
-    puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
-  end
-end
-
-# def age_appropriate_birthday(birthday_kids)
-# age_appropriate_birthday.each do |kids_name, age|
-# if kids_name && age < 12
-# p "Happy Birthday #{kids_name}! You are now #{age} years old!"
-# else
-# "You are too old for this."
-#     end
-#   end
-# end
+def happy_birthday(birthday_kids)
+  birthday_kids.map {|name, years| puts "Happy Birthday #{name}! You are now #{years} years old!"}
+end 
